@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 62.5%; /*100% equivale a 16px por padrão no navegador. 62.5 vale 10px*/
+}
+
+a {
+    text-decoration: none;
+    color: rgba(185, 184, 184, 0.514);
+}
+
+body {
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    height: 10rem;
+    flex-direction: column;
+    position:fixed;
+    background: white;
+    width: 100vw;
+}
+
+.cabecalho {
+    margin-top: 0rem;
+    margin-right: 5rem;
+}
+
+h1, h2, h3 {
+    text-align: right;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.menu div {
+    margin-right: 2rem;
+    margin-top: 0;
+}
+
+main {
+    margin: 15rem 5rem 1rem 5rem;
+    height: 70rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 40rem;
+    align-items: center;
+}
+
+main img {
+    width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.texto {
+    max-width: 28rem;
+    text-align: justify;
+}
+
+.site {
+    display: flex;
+    flex-wrap: wrap;
+    width: 25rem;
+    margin-bottom: 3rem;
+}
+
+footer {
+    align-content: flex-end;
+}
+
+footer p{
+    text-align: center;
+    font-size: 1.0rem;
+    color: rgb(59, 59, 59);
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+}
+
+footer a:hover {
+    color: purple;
+    font-weight: bolder;
+}
+
+#sig {
+    font-family: 'sig';
+}
+

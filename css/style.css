@@ -1,0 +1,122 @@
+@font-face{
+    font-family: 'sig';
+    src: url('../font/modernline.otf')
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(185, 184, 184, 0.514);
+}
+
+:root {
+    font-size: 62.5%; /*100% equivale a 16px por padrão no navegador. 62.5 vale 10px*/
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-around;
+    background: rgb(18,8,29);
+    background: linear-gradient(0deg, rgba(18,8,29,1) 22%, rgba(60,10,65,1) 68%, rgb(109, 24, 96) 100%); 
+}
+
+header {
+    position: absolute;
+    margin-bottom: 40rem;
+    font-size: 2.5rem;
+    color: rgba(245, 245, 245, 0.548);
+    font-family: 'sig';
+}
+
+header h6 {
+    text-align: right;
+    font-family: sans-serif;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+}
+
+.centro {
+    position: relative;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    width: 70vw;
+    height: 20vh;
+    justify-content: space-between;
+}
+
+.botao {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 3px 5px 10px #0000007a;
+    min-width: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    font-size: 2rem;  
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    font-family: 'Gochi Hand', cursive;
+    background-color: rgb(73, 13, 73);
+}
+
+footer {
+    position: absolute;
+    margin-top: 80vh;
+}
+
+footer p{
+    text-align: center;
+    font-size: 1.0rem;
+    color: rgb(59, 59, 59);
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+}
+
+footer a:hover {
+    color: purple;
+    font-weight: bolder;
+}
+
+#sig {
+    font-family: 'sig';
+}
+
+@media (min-width: 760px){
+    
+    .centro {
+        width: 50vw;
+    }
+}
+
+@media (max-width: 360px){
+    
+    header {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-height: 500px){
+    
+    header {
+        margin-bottom: 30rem;
+    }
+}
