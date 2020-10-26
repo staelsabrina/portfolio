@@ -1,0 +1,100 @@
+@font-face{
+    font-family: 'sig';
+    src: url('../font/modernline.otf')
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%; /*100% equivale a 16px por padrão no navegador. 62.5 vale 10px*/
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    background: linear-gradient(45deg, rgb(16, 4, 29), rgba(115, 78, 218, 0.808) 100%), url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(205, 142, 247);
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-family: 'Itim', cursive;
+}
+
+a:hover {
+    color: rgb(151, 46, 151);
+}
+
+.container {
+    width: 80vw;
+
+}
+
+.container .menu {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    justify-content: space-around;
+}
+
+.container .menu a{ 
+    text-decoration: none;
+}
+
+
+main .cabecalho {
+    margin-top: 20vh;
+    align-content: space-around;
+}
+
+main p{
+    margin-top: 2rem;
+    color: rgb(205, 142, 247);
+    font-family: 'Itim', cursive;
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-family: 'sig';
+    font-size: 10vh;
+}
+
+h2 {
+    font-size: 2.5vh;   
+}
+
+.contatos {
+    margin-top: 5rem;
+    line-height: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.contatos a {
+    background-color: rgb(89, 0, 190);
+    box-shadow: 3px 5px 5px #0000007a;
+    width: 10rem;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    transition: 0.4s;
+    color: white;
+}
+
+.contatos a:hover {
+    background-color: rgb(117, 22, 224);
+}
