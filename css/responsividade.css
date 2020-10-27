@@ -24,9 +24,14 @@
 
     header {
         text-align: center;
-        height: 20vh;
-        font-size: 10px;
-        
+        height: 100vh;
+        font-size: 10px;        
+    }
+
+    header .menu {
+        display: inline-flex;
+        flex-wrap: wrap;
+
     }
 
     h1,h2,h3 {
@@ -90,7 +95,6 @@
         align-content: center;
 
     }
-
 
     main div.site img {
         max-width: 70vw;

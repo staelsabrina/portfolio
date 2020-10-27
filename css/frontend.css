@@ -14,10 +14,9 @@ body {
     display: flex;
     justify-content: center;
     font-family: sans-serif;
-    background: linear-gradient(90deg, rgb(54, 39, 119)22%,  rgb(130, 113, 204));
+    background: linear-gradient(90deg, rgb(54, 39, 119)22%,  rgb(130, 113, 204)100%);
     background-size: cover;
     overflow-x:hidden;
-
 }
 
 .container {
