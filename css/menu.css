@@ -1,0 +1,85 @@
+@font-face{
+    font-family: 'sig';
+    src: url('../font/modernline.otf')
+}
+
+a {
+    text-decoration: none;
+    color: rgb(205, 142, 247);
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-family: 'Itim', cursive;
+}
+
+a:hover {
+    color: rgb(151, 46, 151);
+}
+
+
+header{
+    display: flex;
+    padding-bottom: 3vh;
+    flex-direction: column;
+    width: 100vw;
+    background: linear-gradient(45deg, rgb(16, 4, 29), rgba(115, 78, 218, 0.808) 100%), url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.cabecalho {
+    margin-top: 0rem;
+    margin-right: 4rem;
+    color: rgb(205, 142, 247);
+}
+
+h1, h2, h3 {
+    text-align: center;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cabecalho p{
+    text-align: center;
+    margin-top: 15rem
+}
+
+main .cabecalho {
+    margin-top: 20vh;
+    align-content: space-around;
+}
+
+h1 {
+    font-family: 'sig';
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: right;
+    align-items: center;
+
+}
+
+.menu div {
+    margin-right: 2rem;
+    margin-top: 0;
+}
+
+main p{
+    margin-top: 2rem;
+    color: rgb(205, 142, 247);
+    font-family: 'Itim', cursive;
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-family: 'sig';
+    font-size: 5vh;
+}
+
+h2 {
+    font-size: 2.5vh;   
+}
