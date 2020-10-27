@@ -1,0 +1,18 @@
+:root {
+    font-size: 62.5%; /*100% equivale a 16px por padrão no navegador. 62.5 vale 10px*/
+}
+
+.topo {
+    position: fixed;
+    margin-left: 92vw;
+    margin-top: 91vh;
+    text-align: center;
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+    background: rgb(149, 68, 255);
+    border-radius: 10px 0 0 10px;
+}
+
+.topo a {
+    font-size: 1rem;
+}
+

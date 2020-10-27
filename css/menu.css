@@ -29,12 +29,12 @@ header{
 
 .cabecalho {
     margin-top: 0rem;
-    margin-right: 4rem;
     color: rgb(205, 142, 247);
+    align-items: center;
+
 }
 
 h1, h2, h3 {
-    text-align: center;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
