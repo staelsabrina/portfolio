@@ -180,7 +180,7 @@
 
     main div.site .texto {
         width: 90vh;
-        min.height: 90vh;
+        min-height: 90vh;
         line-height: 3.0rem;
         display: flex;
         flex-direction: column;
