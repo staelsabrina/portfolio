@@ -42,4 +42,5 @@ body {
 
 .contatos a:hover {
     background-color: rgb(117, 22, 224);
+    color: white;
 }

@@ -77,30 +77,32 @@ header h6 {
     color: white;
     font-family: 'Gochi Hand', cursive;
     background-color: rgb(89, 0, 190);
+    transition: 0.4s;
+}
+
+.botao:hover {
+    background-color: rgb(117, 22, 224);
 }
 
 .content {
     width: 100vw;
     height: 30vh;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
+    justify-content: flex-end;
+
 }
 
-footer {
-    color: rgb(121, 121, 121);
-}
-
-footer p{
+footer a, footer p {
     text-align: center;
-    font-size: 1.0rem;
-}
-
-footer a {
     text-decoration: none;
+    color: rgb(153, 152, 152);
+    font-family: sans-serif;
+    font-size: 1.3rem;
 }
 
 footer a:hover {
-    color: rgb(57, 11, 167);
+    color: purple;
     font-weight: bolder;
 }
 
