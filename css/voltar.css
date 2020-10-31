@@ -4,8 +4,9 @@
 
 .topo {
     position: fixed;
+    display: inline;
     margin-left: 92vw;
-    margin-top: 91vh;
+    margin-top: 89vh;
     text-align: center;
     padding: 0.2rem 0.5rem 0.2rem 0.5rem;
     background: rgb(149, 68, 255);
@@ -13,6 +14,6 @@
 }
 
 .topo a {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 

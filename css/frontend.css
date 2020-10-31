@@ -33,6 +33,15 @@ main {
     align-items: center;
 }
 
+main p, h4{
+    color: rgb(219, 181, 247);
+    font-family: 'Itim', cursive;
+    font-size: 1.8rem;
+}
+
+main h4 {
+    color: rgb(62, 60, 167);
+}
 
 main .site{
     color: white;
@@ -84,9 +93,13 @@ h4 {
 .texto {
     max-width: 80vw;
     font-size: 1.5rem;
-    margin: 2rem;
+    margin: 0 2rem 0 2rem;
     line-height: 2rem;
+    
+}
 
+.conheci {
+    color: rgb(0, 0, 0);;
 }
 
 footer {
