@@ -19,6 +19,10 @@ body {
     overflow-x:hidden;
 }
 
+div.menu a {
+    font-family: sans-serif;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -35,12 +39,11 @@ main {
 
 main p, h4{
     color: rgb(219, 181, 247);
-    font-family: 'Itim', cursive;
     font-size: 1.8rem;
 }
 
 main h4 {
-    color: rgb(62, 60, 167);
+    font-weight: 900;
 }
 
 main .site{
@@ -51,8 +54,8 @@ main .par {
     max-width: 90vw;
 }
 
-div.impar a{
-    font-weight: 400;
+div.site a{
+    font-size: 130%;
 }
 
 .site {
@@ -67,6 +70,7 @@ div.impar a{
 .site .imagem {
     max-height: 45vh;
     margin-top: 1px;
+    box-shadow: 0px 10px 15px 10px rgba(0, 0, 0, 0.568);
 
 }
 
@@ -99,24 +103,20 @@ h4 {
 }
 
 .conheci {
-    color: rgb(0, 0, 0);;
+    font-weight: 900;
 }
 
 footer {
     margin-bottom: 10vh;
 }
 
-footer p{
-    text-align: center;
-    font-size: 1rem;
-    color: rgb(59, 59, 59);
-}
 
-footer a {
+footer a, footer p {
+    text-align: center;
     text-decoration: none;
-    color: rgb(59, 59, 59);
+    color: rgb(199, 199, 199);
     font-family: sans-serif;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 footer a:hover {
