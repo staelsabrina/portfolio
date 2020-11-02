@@ -59,6 +59,10 @@
         margin: 0;
         padding:0;
     }
+
+    footer .assinatura {
+        display:none;
+    }
     
 }
 
@@ -100,6 +104,16 @@
     main div.site img {
         max-width: 70vw;
     }
+
+    footer {
+        display: inline;
+        flex-direction: column-reverse;
+    }
+
+    footer .assinatura #sig {
+        font-size: 3rem;
+    }
+
 }
 
 @media (min-width: 500px){
@@ -112,6 +126,12 @@
     main div.site img {
         width: 40rem;
     }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+    }
+
 }
 
 @media (min-width: 650px){
@@ -169,6 +189,11 @@
 
 }
 
+@media (max-width: 946px){
+    footer{border-top: 1px solid black;}
+    
+}
+
 @media (min-width: 947px){
 
     h4 {
@@ -216,6 +241,5 @@
         max-width: 80vw;
         margin-top: 0;
     }
-
 
 }

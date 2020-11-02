@@ -4,8 +4,8 @@ footer {
     display: inline-flex;
     align-items: center;
     justify-content: space-around;
+    
 }
-
 
 footer a, footer p {
     text-decoration: none;
