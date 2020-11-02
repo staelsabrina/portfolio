@@ -134,6 +134,10 @@
         text-align: center;
     }
 
+    img.seta {
+        margin-top: 10vh;
+    }
+
     main {
         max-width: 100vw;
         max-height: 100vh;

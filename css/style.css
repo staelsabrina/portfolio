@@ -52,38 +52,6 @@ header h6 {
     font-family: sans-serif;
 }
 
-.centro {
-    display: inline-flex;
-    flex-wrap: wrap;
-    width: 60vw;
-    height: 20vh;
-    align-self: center;
-    align-items: flex-end;
-
-}
-
-.botao {
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-    box-shadow: 3px 5px 5px #0000007a;
-    min-width: 15rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2rem;
-    padding: 1.0rem;
-    font-size: 2rem;  
-    text-align: center;
-    cursor: pointer;
-    color: white;
-    font-family: 'Gochi Hand', cursive;
-    background-color: rgb(89, 0, 190);
-    transition: 0.4s;
-}
-
-.botao:hover {
-    background-color: rgb(117, 22, 224);
-}
-
 .content {
     width: 100vw;
     height: 30vh;

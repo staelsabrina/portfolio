@@ -23,24 +23,12 @@ body {
 }
 
 .contatos {
+    max-width: 60vw;
+    flex-wrap: wrap;
     margin-top: 5rem;
     line-height: 2.5rem;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-}
-
-.contatos a {
-    background-color: rgb(89, 0, 190);
-    box-shadow: 3px 5px 5px #0000007a;
-    width: 10rem;
-    border-radius: 1rem;
-    padding: 0.5rem 1rem;
-    transition: 0.4s;
-    color: white;
-}
-
-.contatos a:hover {
-    background-color: rgb(117, 22, 224);
-    color: white;
+    text-align: center;
 }

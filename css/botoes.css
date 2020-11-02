@@ -1,0 +1,36 @@
+:root {
+    font-size: 62.5%; /*100% equivale a 16px por padrão no navegador. 62.5 vale 10px*/
+}
+
+.botao {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px #0000007a;
+    min-width: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(89, 0, 190);
+    transition: 0.4s;
+}
+
+.bot1{
+    font-size: 1.5rem;  
+}
+
+.botao:hover {
+    background-color: rgb(117, 22, 224);
+}
+
+.centro {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 60vw;
+    height: 20vh;
+    align-self: center;
+    align-items: flex-end;
+}
