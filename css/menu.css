@@ -45,6 +45,10 @@ h1, h2, h3 {
     margin-top: 15rem
 }
 
+.cabecalho img {
+    margin-top: 10rem;
+}
+
 main .cabecalho {
     margin-top: 20vh;
     align-content: space-around;
