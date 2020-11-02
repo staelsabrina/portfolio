@@ -9,8 +9,13 @@
     margin-top: 89vh;
     text-align: center;
     padding: 0.2rem 0.5rem 0.2rem 0.5rem;
-    background: rgb(149, 68, 255);
+    background: rgb(89, 0, 190);
     border-radius: 10px 0 0 10px;
+    transition: 0.4s;
+}
+
+.topo:hover {
+    background-color: rgb(117, 22, 224);
 }
 
 .topo a {
