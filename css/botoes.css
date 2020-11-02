@@ -29,8 +29,21 @@
 .centro {
     display: inline-flex;
     flex-wrap: wrap;
-    width: 60vw;
-    height: 20vh;
     align-self: center;
     align-items: flex-end;
+}
+
+.index {
+    width: 60vw;
+    justify-content: space-around;
+}
+
+.centro img {
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 10vh;
+    width: 55px;
+    padding:10px;
+    background: rgb(233, 224, 255);
+    border-radius: 20%;
 }

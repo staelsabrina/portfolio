@@ -1,34 +1,37 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+footer {
+    width: 80vw;
+    margin-bottom: 5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-:root {
-    font-size: 62.5%; /*100% equivale a 16px por padrão no navegador. 62.5 vale 10px*/
-}
 
-body {
-    max-height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+footer a, footer p {
+    text-decoration: none;
+    color: rgb(199, 199, 199);
     font-family: sans-serif;
-    background: linear-gradient(45deg, rgb(16, 4, 29), rgba(115, 78, 218, 0.808) 100%), url(../img/background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    overflow-x: hidden;
+    font-size: 1.5rem;
+}
+
+footer a:hover {
+    color: purple;
 }
 
 .contatos {
-    max-width: 60vw;
+    max-width: 80vw;
+    height: 30vh;
     flex-wrap: wrap;
     margin-top: 5rem;
-    line-height: 2.5rem;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    text-align: center;
+    line-height: 2.5rem;  
+}
+
+footer #sig {
+    font-family: 'sig';
+    font-size: 4rem;
+}
+
+footer div.assinatura p {
+    text-align: left;
+
 }

@@ -104,25 +104,3 @@ h4 {
 .conheci {
     font-weight: 900;
 }
-
-footer {
-    margin-bottom: 10vh;
-}
-
-
-footer a, footer p {
-    text-align: center;
-    text-decoration: none;
-    color: rgb(199, 199, 199);
-    font-family: sans-serif;
-    font-size: 1.5rem;
-}
-
-footer a:hover {
-    color: purple;
-    font-weight: bolder;
-}
-
-#sig {
-    font-family: 'sig';
-}
