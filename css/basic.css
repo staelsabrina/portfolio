@@ -59,7 +59,8 @@ main .par {
 }
 
 div.site a{
-    font-size: 130%;
+    font-size: 100%;
+    text-decoration: underline;
 }
 
 .site {
@@ -98,7 +99,6 @@ h4 {
     max-width: 80vw;
     font-size: 1.5rem;
     margin: 0 2rem 0 2rem;
-    line-height: 2rem;
 }
 
 .texto a{
