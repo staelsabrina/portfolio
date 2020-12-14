@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: center;
     font-family: sans-serif;
-    background: linear-gradient(90deg, rgb(26, 26, 26)22%,  rgb(51, 51, 51)100%);
+    background: #1d1d1d;
     background-size: cover;
     overflow-x:hidden;
 }
@@ -68,7 +68,7 @@ div.site a{
     flex-wrap: wrap;
     width: 80vw;
     min-height: 45vh;
-    margin: 3rem;
+    /* margin: 3rem; */
 }
 
 .site .imagem {
