@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>Porfólio</title>
+</head>
+<body>
+    <header class="menu">
+        <ul class="lista">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="educacao.html">Educação</a></li>
+            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </header>
+
+    <!-- Corpo da página de contato -->
+    <div class="center center_contato">
+        <div><h3 class="titulo">Contato</h1></div>
+        <div class="corpo_formulario">
+            <!-- Não fiz um backend capaz de enviar o email por si só, 
+                então quando clicar em enviar, o programa de email instalado no computador 
+                do usuário será aberto para que ele envie uma mensagem-->
+            <form class="formulario" action="mailto:stael.figueiredo@gmail.com">
+                <fieldset id="nome">
+                    <div class="campo">
+                        <!-- Quando o usuario clicar ou pressionar as labels, 
+                            o campo de imput automaticamente fica marcado para uso, 
+                            assim o site funciona melhor em telas menores -->
+                        <label for="input_nome">*Nome: </label>
+                        <input type="text" id="input_nome" size="20" maxlength="50" placeholder="Informe seu nome">
+                    </div>
+                </fieldset>
+                <fieldset id="email">
+                    <div class="campo">
+                        <label for="input_email">*E-mail: </label>
+                        <input type="email" id="input_email" size="20" maxlength="40" placeholder="Informe seu e-mail">
+                    </div>
+                </fieldset>
+                <fieldset id="telefone">
+                    <div class="campo">
+                        <label for="input_tel">*Telefone: </label>
+                        <input type="tel" id="input_tel" size="15" maxlength="20" placeholder="(__) _____-____">
+                    </div>
+                </fieldset>
+                <fieldset id="mensagem">
+                    <div class="campo">
+                        <label for="input_msg">*Mensagem: </label>
+                        <textarea id="input_msg" cols="20" rows="5" placeholder="Escreva aqui"></textarea>
+                    </div>
+                </fieldset>
+                <input class="enviar" type="submit" id="botao" value="Enviar" onclick="popup()">
+            </form>
+        </div>
+        
+        
+    </div>
+    <footer class="footer">Made with &#9829 by Stael Figueiredo</footer>
+
+    <!-- Script serve apenas para aparecer um alert agradecendo pela mensagem, quando o usuário clicar em enviar -->
+    <script>
+        function popup(e) {
+            alert('Obrigada pela sua mensagem!')
+        }
+    </script>
+</body>
+</html>

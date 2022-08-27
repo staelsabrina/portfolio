@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>Porfólio</title>
+</head>
+
+<body class="body_portfolio">
+    <header class="menu cabecalho">
+        <ul class="lista">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="educacao.html">Educação</a></li>
+            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </header>
+    <main class="main">
+
+        <!-- Dividi o corpo do portfólio em duas partes/divs, para ter um "rosto" nessa parte -->
+
+        <!-- Aqui fica uma div de rosto só para indicar onde o usuário está, com um título -->
+        <div class="topo_pagina_portfolio">
+            <h1 class="titulo">Portfólio</h1>
+            <h6 class="subtitulo">Desenvolvimento Front End</h6>
+            <p class="ref subtitulo">Role a tela e clique nas imagens para acessar os sites dos projetos</p>
+            <!-- Esse link leva para o id sites usando rolagem suave na transição -->
+            <a href="#sites"><p class="seta">&darr;</p></a>
+        </div>
+
+        <!-- Divisão com as imagens e textos do portfólio. 
+            Todos levam para a página do projeto bem como para o repositório do github-->
+
+        <div id="sites" class="sites">
+            <!-- os sites com a classe par possuem um fundo cinza transparente, 
+                para dar uma idéia de divisão e ficar melhor visualmente -->
+            <div class="site par">
+                <div class="imagem"><a href="https://staelsabrina.github.io/WonderWoman/" target="_blank"><img
+                            src="img/wonderwoman.png"></a></div>
+                <div class="texto">
+                    <h4>Wonder Woman</h4>
+                    <p>Site desenvolvido para homenagear a melhor e maior Heroína da DC.</p>
+                    <p>Foi utilizado HTML, CSS, Javascript e Owl Jquery para o carrousel. </p>
+                    <p class="conheci">Principais conhecimentos trabalhados durante o projeto: Respon&shy;sividade,
+                        utilização da biblioteca Owl Carrousel, <br>manipulação do DOM e utilização de menu accordion.</p>
+                    <p><a href="https://github.com/staelsabrina/WonderWoman" target="_blank">Repositório Github</a></p>
+                </div>
+            </div>
+
+            <div class="site">
+                <div class="imagem"><a href="https://staelsabrina.github.io/Projetos/overclock/index.html"
+                        target="_blank"><img src="img/overclock.png"></a></div>
+                <div class="texto">
+                    <h4>Overclock</h4>
+                    <p>Projeto de jogo de adivinhação, estilo 'leitura da mente'.</p>
+                    <p>Foram utilizados HTML, CSS e JavaScript.</p>
+                    <p class="conheci">Principais conhecimentos trabalhados durante o projeto: Responsividade, funções JS,
+                        <br>manipulação do DOM e utilização de programas gráficos para criação das cartas</p>
+                    <p><a href="https://github.com/staelsabrina/Projetos/tree/master/overclock" target="_blank">Repositório
+                            Github</a></p>
+                </div>
+            </div>
+
+            <div class="site par">
+                <div class="imagem gif"><a href="https://github.com/staelsabrina/next_level_week" target="_blank"><img
+                            src="img/happy.gif"></a></div>
+                <div class="texto">
+                    <h4>Happy</h4>
+                    <p>Projeto desen&shy;vol&shy;vido durante a 3ª NLW, da Rocketseat. A página não pode ser carregada pelo
+                        Github pages por ser dinâmica. </p>
+                    <p>Foram utilizados Handlebars, CSS e JavaScript para o frontend. SQlite no backend.</p>
+                    <p class="conheci">Principais conhecimentos adquiridos durante o projeto: Respon&shy;sividade,
+                        utilização de formu&shy;lários para atua&shy;lização de banco de dados, <br>utilização de Handlebars
+                        para páginas dinâmicas.</p>
+                    <p><a href="https://github.com/staelsabrina/next_level_week" target="_blank">Repositório Github</a></p>
+                </div>
+            </div>
+
+            <div class="site">
+                <div class="imagem"><a
+                        href="https://staelsabrina.github.io/BootCamp_JavaScript_Game_Developer/Projeto_Netflix/index.html"
+                        target="_blank"><img src="img/gameflix.png"></a></div>
+                <div class="texto">
+                    <h4>Gameflix</h4>
+                    <p>Site clone da Netflix, desenvol&shy;vido durante o Boot&shy;camp Java&shy;Script Game Developer, da
+                        Digital Innovation one.</p>
+                    <p>Foram utilizados HTML, CSS e JavaScript.</p>
+                    <p class="conheci">Principais conhecimentos adquiridos durante o projeto: Carrossel com Jquery, Flexbox,
+                        Responsividade</p>
+                    <p><a href="https://github.com/staelsabrina/BootCamp_JavaScript_Game_Developer/tree/master/Projeto_Netflix"
+                            target="_blank">Repositório Github</a></p>
+                </div>
+            </div>
+
+            <div class="site par">
+                <div class="imagem"><a
+                        href="https://staelsabrina.github.io/BootCamp_JavaScript_Game_Developer/Projeto_Space_Shooter/index.html"
+                        target="_blank"><img src="img/alienshooter.png"></a></div>
+                <div class="texto">
+                    <h4>Jogo Alien Shoo&shy;ter</h4>
+                    <p>Jogo desenvolvido durante o Boot&shy;Camp Java&shy;Script Game Deve&shy;loper, da Digital
+                        Inno&shy;vation One.</p>
+                    <p>Foram utilizados HTML, CSS e JavaScript.</p>
+                    <p class="conheci">Principais conhecimentos adquiridos durante o projeto: Posicionamento com CSS,
+                        manipulação do DOM, eventListeners e manipulação de Array.</p>
+                    <p><a href="https://github.com/staelsabrina/BootCamp_JavaScript_Game_Developer/tree/master/Projeto_Space_Shooter"
+                            target="_blank">Repositório Github</a></p>
+                </div>
+            </div>
+
+            <div class="site">
+                <div class="imagem"><a
+                        href="https://staelsabrina.github.io/BootCamp_JavaScript_Game_Developer/Projeto_Jogo_Memoria/index.html"
+                        target="_blank"><img src="img/supermemorygame.png"></a></div>
+                <div class="texto">
+                    <h4>Jogo Super Memory<wbr/> Game</h4>
+                    <p>Jogo desenvolvido durante o BootCamp JavaScript Game Developer, da Digital Innovation One.</p>
+                    <p>Foram utilizados HTML, CSS e JavaScript.</p>
+                    <p class="conheci">Principais conhecimentos adquiridos durante o projeto: Efeitos 3D no CSS, lógica de
+                        programação com JS, <br>Immediately Inoked Function Expression, manipulação de Array</p>
+                    <p><a href="https://github.com/staelsabrina/BootCamp_JavaScript_Game_Developer/tree/master/Projeto_Jogo_Memoria"
+                            target="_blank">Repositório Github</a></p>
+                </div>
+            </div>
+
+            <div class="site par">
+                <div class="imagem"><a
+                        href="https://staelsabrina.github.io/BootCamp_JavaScript_Game_Developer/Projeto_Game_Naves/index.html"
+                        target="_blank"><img src="img/resgate.png"></a></div>
+                <div class="texto">
+                    <h4>Jogo Resgate</h4>
+                    <p>Jogo desenvolvido durante o BootCamp JavaScript Game Developer, da Digital Innovation One.</p>
+                    <p>Foram utilizados HTML, CSS e JavaScript.</p>
+                    <p class="conheci">Principais conhecimentos adquiridos durante o projeto: Animações com CSS, Jquery,
+                        manipulação do DOM</p>
+                    <p><a href="https://github.com/staelsabrina/BootCamp_JavaScript_Game_Developer/tree/master/Projeto_Game_Naves"
+                            target="_blank">Repositório Github</a></p>
+                </div>
+            </div>
+
+            <div class="site">
+                <div class="imagem"><a
+                        href="https://staelsabrina.github.io/Bootcamp_HTML_Web_Dev/Construindo_pag_Bootstrap/index.html"
+                        target="_blank"><img src="img/gatinholandia.png"></a></div>
+                <div class="texto">
+                    <h4>Gatinholândia</h4>
+                    <p>Página criada durante o Bootcamp HTML Web Developer, da Digital Innovation One.</p>
+                    <p>Foram utilizados HTML, CSS e JavaScript.</p>
+                    <p class="conheci">Principais conhecimentos adquiridos durante o projeto: Utilização de Bootstrap</p>
+                    <p><a href="https://github.com/staelsabrina/Bootcamp_HTML_Web_Dev/tree/master/Construindo_pag_Bootstrap/bootstrap"
+                            target="_blank">Repositório Github</a></p>
+                </div>
+            </div>
+
+            <div class="site par">
+                <div class="imagem"><a
+                        href="https://staelsabrina.github.io/curso_em_video/curso_js/ModuloD/Aula%2012%20ex/ex014/index.html"
+                        target="_blank"><img src="img/horadodia.png"></a></div>
+                <div class="texto">
+                    <h4>Hora do Dia</h4>
+                    <p>Projeto realizado durante o Curso de JavaScript Básico do site Curso em Video, professor Guanabara. <br>O
+                        site responde à hora do dia, exibindo uma imagem diferente e mudando as cores de acordo com o turno.
+                    </p>
+                    <p>Foram utilizados HTML, CSS e JavaScript.</p>
+                    <p class="conheci">Principais conhecimentos adquiridos durante o projeto: Manipulação do DOM</p>
+                    <p><a href="https://github.com/staelsabrina/curso_em_video/tree/master/curso_js/ModuloD/Aula%2012%20ex/ex014"
+                            target="_blank">Repositório Github</a></p>
+                </div>
+            </div>
+
+            <div class="site">
+                <div class="imagem"><a href="https://staelsabrina.github.io/curso_em_video/Projeto_Google_Glass/index.html"
+                        target="_blank"><img src="img/googleglass.png"></a></div>
+                <div class="texto">
+                    <h4>Projeto Google Glass</h4>
+                    <p>Página desenvolvido durante o curso de HTML e CSS com site Curso em Video, professor Guanabara.</p>
+                    <p>Foram utilizados HTML, CSS e JavaScript.</p>
+                    <p class="conheci">Principais conhecimentos adquiridos durante o projeto: Marcações HTML, estilização
+                        com CSS e manipulação do DOM</p>
+                    <p><a href="https://github.com/staelsabrina/curso_em_video/tree/master/Projeto_Google_Glass"
+                            target="_blank">Repositório Github</a></p>
+                </div>
+            </div>
+
+            <div class="site par">
+                <div class="imagem"><a href="https://staelsabrina.github.io/Projetos/Calculadora/index.html"
+                        target="_blank"><img src="img/calculadoxa.png"></a></div>
+                <div class="texto">
+                    <h4>Calculadoxa</h4>
+                    <p>Calculadora virtual desenvolvida como projeto pessoal</p>
+                    <p>Foram utilizados HTML, CSS e JavaScript.</p>
+                    <p class="conheci">Principais conhecimentos adquiridos durante o projeto: Manipulação do DOM</p>
+                    <p><a href="https://github.com/staelsabrina/Projetos/tree/master/Calculadora"
+                            target="_blank">Repositório Github</a></p>
+                </div>
+            </div>
+
+            <div class="site">
+                <div class="imagem"><a
+                        href="https://staelsabrina.github.io/curso_em_video/curso_js/ModuloD/Aula%2012%20ex/ex015/"
+                        target="_blank"><img src="img/verificadoridade.png"></a></div>
+                <div class="texto">
+                    <h4>Verificador de Idade</h4>
+                    <p>Projeto realizado durante o Curso de JavaScript Básico do site Curso em Video, professor Guanabara. <br>O
+                        site exibe uma imagem diferente de acordo com a idade e gênero informado no formulário.</p>
+                    <p>Foram utilizados HTML, CSS e JavaScript.</p>
+                    <p class="conheci">Principais conhecimentos adquiridos durante o projeto: Manipulação do DOM,
+                        condicionais em JS</p>
+                    <p><a href="https://github.com/staelsabrina/curso_em_video/tree/master/curso_js/ModuloD/Aula%2012%20ex/ex015"
+                            target="_blank">Repositório Github</a></p>
+                </div>
+            </div>
+
+            <div class="site par">
+                <div class="imagem"><a
+                        href="https://staelsabrina.github.io/curso_em_video/curso_js/ModuloE/Aula%2014ex/ex016/modelo.html"
+                        target="_blank"><img src="img/supercontador.png"></a></div>
+                <div class="texto">
+                    <h4>Super Contador</h4>
+                    <p>Projeto realizado durante o Curso de JavaScript Básico do site Curso em Video, professor Guanabara.
+                    </p>
+                    <p>Foram utilizados HTML, CSS e JavaScript.</p>
+                    <p class="conheci">Principais conhecimentos adquiridos durante o projeto: Manipulação do DOM, adição de
+                        ícones utilizando unicode.</p>
+                    <p><a href="https://github.com/staelsabrina/curso_em_video/tree/master/curso_js/ModuloE/Aula%2014ex/ex016"
+                            target="_blank">Repositório Github</a></p>
+                </div>
+            </div>
+
+            <div class="site">
+                <div class="imagem"><a
+                        href="https://staelsabrina.github.io/curso_em_video/curso_js/ModuloE/Aula%2014ex/ex017/modelo.html"
+                        target="_blank"><img src="img/tabuada.png"></a></div>
+                <div class="texto">
+                    <h4>Tabuada</h4>
+                    <p>Projeto realizado durante o Curso de JavaScript Básico do site Curso em Video, professor Guanabara.
+                    </p>
+                    <p>Foram utilizados HTML, CSS e JavaScript.</p>
+                    <p class="conheci">Principais conhecimentos adquiridos durante o projeto: Manipulação do DOM</p>
+                    <p><a href="https://github.com/staelsabrina/curso_em_video/tree/master/curso_js/ModuloE/Aula%2014ex/ex017"
+                            target="_blank">Repositório Github</a></p>
+                </div>
+            </div>
+
+            <div class="site par">
+                <div class="imagem"><a
+                        href="https://staelsabrina.github.io/curso_em_video/curso_js/ModuloF/Aula%2016/Aula%2016ex/ex018/modelo.html"
+                        target="_blank"><img src="img/analisadornumeros.png"></a></div>
+                <div class="texto">
+                    <h4>Analisador de Números</h4>
+                    <p>Projeto realizado durante o Curso de JavaScript Básico do site Curso em Video, professor Guanabara.
+                    </p>
+                    <p>Foram utilizados HTML, CSS e JavaScript.</p>
+                    <p class="conheci">Principais conhecimentos adquiridos durante o projeto: Manipulação do DOM</p>
+                    <p><a href="https://github.com/staelsabrina/curso_em_video/tree/master/curso_js/ModuloF/Aula%2016/Aula%2016ex/ex018"
+                            target="_blank">Repositório Github</a></p>
+                </div>
+            </div>
+
+            <div class="site">
+                <div class="imagem"><a
+                        href="https://staelsabrina.github.io/BootCamp_JavaScript_Game_Developer/Projeto_Jogo_Velha/"
+                        target="_blank"><img src="img/jogovelha.png"></a></div>
+                <div class="texto">
+                    <h4>Jogo da Velha</h4>
+                    <p>Jogo desenvolvido durante o BootCamp JavaScript Game Developer, da Digital Innovation One.</p>
+                    <p>Foram utilizados HTML, CSS e JavaScript.</p>
+                    <p class="conheci">Principais conhecimentos adquiridos durante o projeto: Lógica de programação com JS,
+                        manipulação do DOM e estilo utilizando JavaScript</p>
+                    <p><a href="https://github.com/staelsabrina/BootCamp_JavaScript_Game_Developer/tree/master/Projeto_Jogo_Velha"
+                            target="_blank">Repositório Github</a></p>
+                </div>
+            </div>
+
+            <div class="site par">
+                <div class="imagem"><a
+                        href="https://staelsabrina.github.io/BootCamp_JavaScript_Game_Developer/Projeto_Dino_Offline/index.html"
+                        target="_blank"><img src="img/dinogame.png"></a></div>
+                <div class="texto">
+                    <h4>Dino Game</h4>
+                    <p>Recriação do famoso Jogo do Dinossauro Offline, desenvolvido durante o BootCamp JavaScript Game
+                        Developer, da Digital Innovation One.</p>
+                    <p>Foram utilizados HTML, CSS e JavaScript.</p>
+                    <p class="conheci">Principais conhecimentos adquiridos durante o projeto: Manipulação de DOM, funções em
+                        JS, animações com CSS</p>
+                    <p><a href="https://github.com/staelsabrina/BootCamp_JavaScript_Game_Developer/tree/master/Projeto_Dino_Offline"
+                            target="_blank">Repositório Github</a></p>
+                </div>
+            </div>
+
+            <div class="site">
+                <div class="imagem"><a
+                        href="https://staelsabrina.github.io/Bootcamp_HTML_Web_Dev/projeto_jogo_cobrinha_js/index.html"
+                        target="_blank"><img src="img/cobrinha.png"></a></div>
+                <div class="texto">
+                    <h4>Jogo da Cobrinha</h4>
+                    <p>Jogo desenvolvido durante o BootCamp HTML Web Developer, da Digital Innovation One.</p>
+                    <p>Foram utilizados HTML, CSS e JavaScript.</p>
+                    <p class="conheci">Principais conhecimentos adquiridos durante o projeto: Manipulação do DOM e
+                        estilização CSS</p>
+                    <p><a href="https://github.com/staelsabrina/Bootcamp_HTML_Web_Developer/tree/master/projeto_jogo_cobrinha_js"
+                            target="_blank">Repositório Github</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">Made with &#9829 by Stael Figueiredo</footer>
+</body>
+
+</html>
